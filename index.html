@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>
+Eclipsed, the website about ECLIPSES!!!
+</title>
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: linear-gradient(black, grey, white);
+   color: white;
+   text-align: center;
+}
+
+.text { font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1, h2, h3, h4, h5, p{ color: white;
+}
+
+body {
+  background-image: url('https://c.tadst.com/gfx/900x506/blood-moon-photography.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+a {
+background: linear-gradient(grey, white, black);
+text-decoration: none;
+padding: 0px;
+border: 0px outset #845007;
+border-radius: 50px;
+transition-duration: .0s;
+z-index: 
+-1
+}
+
+a:hover {
+background-color: #845007;
+border: 2px outset #3a4660;
+title:  Regular Games
+}
+
+div {
+  width: 1075px;
+ height: 10%%;
+}
+</style>
+  <body>
+
+<div class="navbar">
+  <a href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256" style="fill:#000000;"> <g fill="#e4ff00" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M12,2.09961l-11,9.90039h3v9h6v-7h4v7h6v-9h3z"></path></g></g> </svg>
+
+</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Astronomy and Eclipses
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+ <a href="./solar-moon.html">Solar eclipse Simulator</a>
+  </div>
+<a href="./search.html">Search</a>
+ </div>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</div>
+<div align="right"><image src="./Eclipsed.jpg" height="160px" width="1075px" </image></div>
+<div align="center"><iframe src="https://free.timeanddate.com/clock/i9iftm2x/n134/fn2/fcfff/tc000/bo2/th2/ta1" frameborder="0" width="134" height="23"></iframe></div>
+
+<font color="white" class="text"><h1 align="center"><b>About Eclipsed</b></h1></font>
+
+<font color="white"><p align="center">Note:(This is not a perfect website. It is under constrction right now so things may not be working. if the images won't load, check your internet to see if it is out.)</p>
+
+<p align="center">Welcome to Eclipsed! This is an educational website all about the moon, sun and everything in the sky.</p></font>
+
+<div class="footer">
+  <p>Copyright 2024</p>
+</div>
+
+</body>
+</HTML>                  
